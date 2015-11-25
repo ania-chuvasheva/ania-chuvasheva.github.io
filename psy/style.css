@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  background-color: #f2f2f2;
+  background-image: url("concrete_seamless.png");
+  color: #333333;
+  font-family: "Helvetica", Arial, Tahoma;
+}
+
+.main {
+  margin: auto;
+}
+
+#form {
+  font-size: 20px;
+  display: none;
+  flex-direction: column;
+}
+
+#message {
+  display: none;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#circle {
+  font-size: 45px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  display: none;
+}
+
+#on_start {
+  font-size: 40px;
+  display: none;
+}
+
+#rules {
+  display: none;
+  flex-direction: column;
+}
+
+#consultant {
+  justify-content: center;
+}

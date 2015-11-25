@@ -1,0 +1,21 @@
+{
+  "name": "psy",
+  "version": "1.0.0",
+  "description": "Psy for Chu",
+  "main": "index.html",
+  "scripts": {
+    "build": "babel < main.js > script.js"
+  },
+  "author": "Vladislav Ganshin",
+  "license": "ISC",
+  "window": {
+    "icon": "icon.png",
+    "toolbar": false,
+    "resizable": false,
+    "fullscreen": false,
+    "kiosk": true
+  },
+  "dependencies": {
+    "homedir": "^0.6.0"
+  }
+}
